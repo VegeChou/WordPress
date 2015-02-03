@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         ' at~At-a0h,K-(?LFJ)kutpTU*+JQ-p-++caLOpBRl{g)tUg%/$?X/T6=Tdo3ggY');
-define('SECURE_AUTH_KEY',  'fAb&>$iRtntZJNu^|Dhy[^2FmRK&9:?nCXqYWTK9T|~+RLN*88?1b=i~>^&QfK;B');
-define('LOGGED_IN_KEY',    'JYFY6.4o<>||t26Dv2`cspS>TJ,r,^(=g= ,z1,xOEX%:&6?H.1bfVD]aij)#7M<');
-define('NONCE_KEY',        '>f~?(NR!meLTtQV@JFefua;dse4Ec4=Tu8>8N@<U.sWT&d|LjL+2!bq[KAC@|s4I');
-define('AUTH_SALT',        'Iu?.I7NuP-=+&XO~JPp;U)CH.HbSE/:CPqsPZp><pOFaj|:K+g&iE/m#w7W|v[/E');
-define('SECURE_AUTH_SALT', '5?8QAg+++c$jWujQ&L4G}6^|G}d4K-%9:l|P5;$DdT]Rhix>>Bc_j:?cRxgcA[6G');
-define('LOGGED_IN_SALT',   'R0>=|Bp%C+eTS.E{wU|.:=(Qv>w-:JeMN><hCJSc[.VZ-yU+Sshz]KNkjHWGp/Sz');
-define('NONCE_SALT',       '~{6mE+RXR]zi<cNOfJD}Flt=mO;qI(jM@AG=Qn|5-ZE|-]65kjI9dI?1Y!!+q<Wq');
+define('AUTH_KEY',         'Trc--!fB&-+58Z?xW#[=`BF`gnW>?6Kwk7nC?wYgSgD&ms6F1;$c.lVTN+9exf^%');
+define('SECURE_AUTH_KEY',  ';?>9y>URMmVfHMN{pUMi5_E`|1_a0DUSj<u*lDLuC[ya3I$nKS5`mC8>]#yh#}&`');
+define('LOGGED_IN_KEY',    '0{c*~1hp(J#S:Wptg(AM6LRN10!Z=K|A!}t=_Gug kB4d$3h1F<-L{VoytP^O*DF');
+define('NONCE_KEY',        '(462/Huss,VT~+)d?@}+1J%-doBww Tf^!$gXYV1p;LZ^%p5#hn^NuN|662J+XPM');
+define('AUTH_SALT',        '6R`l.-IUp@)-*M?,yX}lIVr+SRaW[?Hyxy^+u|2ddT<9;jIRyR_F~G]IF+|7OyJV');
+define('SECURE_AUTH_SALT', '$V[WJX3~-of}KbPxrs1eEn;Sf^FSi&Px~>q2KbN}Q*Nl`er6O|tc2K|c0J[p@is!');
+define('LOGGED_IN_SALT',   '10 m/8E+iKN|^3p1+|FT(PC{GheYKKKG.{D8-~+1U;/Tt+D)Am@i-#IB{7K&w.R4');
+define('NONCE_SALT',       'Mr-:&H*w?YmK+5L OeJkn;Uf8:m,VYd06b1@scC7q<AnLfjmIj-}i&l|7x&A[^px');
 
 /**#@-*/
 
@@ -86,7 +86,7 @@ if ( !defined('ABSPATH') )
 /** 设置WordPress变量和包含文件。 */
 require_once(ABSPATH . 'wp-settings.php');
 
-/** 解决 WordPress 更新需要填写 FTP 信息的问题 */
+/** 解决安装主题或者插件需要输入FTP信息 */
 define("FS_METHOD", "direct");  
 define("FS_CHMOD_DIR", 0777);  
 define("FS_CHMOD_FILE", 0777);  
